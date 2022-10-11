@@ -1,0 +1,27 @@
+.transactionHistory {
+  border: 1px solid grey;
+  border: 1px solid;
+  border-collapse: collapse;
+  width: 100%;
+  table-layout: fixed;
+  height: 1em;
+}
+.transactionHistory thead {
+  background-color: aqua;
+}
+th {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-right: 1px solid grey;
+}
+td {
+  width: 100px;
+  text-align: center;
+  border-right: 1px solid grey;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+tr:nth-child(even) {
+  background: silver;
+}
